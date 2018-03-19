@@ -1,0 +1,21 @@
+<html>
+
+
+<!--   This is just a snippet from the code from my portfolio website, not the whole code   -->
+<!--   This is the JavaScript used to make my toggle navigation bar  -->
+
+
+<script>
+function toggleNavPanel(x){
+    var panel = document.getElementById(x), navarrow = document.getElementById("navarrow"), maxH="165px";
+    if(panel.style.height == maxH){
+        panel.style.height = "0px";
+        navarrow.innerHTML = "&#9662;";
+    } else {
+        panel.style.height = maxH;
+        navarrow.innerHTML = "&#9652;";
+    }
+}
+</script>
+
+</html>
